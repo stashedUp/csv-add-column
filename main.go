@@ -65,12 +65,12 @@ func main() {
 
 	rand := fmt.Sprintf("%v", secs)
 
-	file, err := os.Create("./iowa-state/" + rand + "result.csv")
+	file, err := os.Create("./outgoingdata/" + rand + "result.csv")
 	checkError("Cannot create file", err)
 	defer file.Close()
 
 	w := csv.NewWriter(file)
-	fmt.Println("Attempting to send messages!")
+	fmt.Println("Attempting recompose csv")
 
 	//var organizations []Org
 	line, _ := reader.Read()

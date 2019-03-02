@@ -28,3 +28,6 @@ docs/vendor/**
 docs/.bundle/**
 
 .sass-cache
+
+outgoingdata
+incomingdata

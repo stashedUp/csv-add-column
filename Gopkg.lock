@@ -3,13 +3,15 @@
 
 [[projects]]
   branch = "master"
+  digest = "1:b5fb39406457e4a78f9b50e24e0f149145789ac7805ad88109c4640bd7b2e541"
   name = "github.com/pborman/getopt"
   packages = ["."]
+  pruneopts = "UT"
   revision = "2b5b3bfb099b7da3e2f433966f8ab1d5803e0876"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "06352dd6e10846ade83eb6e537c78ef718917bbfd85efa933fd416bc67c50a0a"
+  input-imports = ["github.com/pborman/getopt"]
   solver-name = "gps-cdcl"
   solver-version = 1
